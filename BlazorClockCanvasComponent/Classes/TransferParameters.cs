@@ -13,7 +13,6 @@ namespace BlazorClockCanvasComponent.Classes
         /// </summary>
         public float x { get; set; }
 
-
         /// <summary>
         /// The y-coordinate of the center of the circle
         /// </summary>

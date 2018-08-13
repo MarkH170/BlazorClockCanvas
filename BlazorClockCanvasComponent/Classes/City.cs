@@ -29,8 +29,7 @@ namespace BlazorClockCanvasComponent.Classes
         [Parameter]
         public string DivClass { get; set; } = "position:relative; width:300px; height:300px;";
 
-
-
+        
         [Parameter]
         public bool FastMode { get; set; } = false;
 
