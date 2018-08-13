@@ -77,7 +77,7 @@ namespace BlazorClockCanvasComponent
 
 
                
-              //  await Preload_Image();
+                await Preload_Image();
 
 
                 //FastMode = city.FastMode;

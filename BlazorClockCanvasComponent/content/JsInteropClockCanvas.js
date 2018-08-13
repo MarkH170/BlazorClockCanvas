@@ -1,5 +1,4 @@
-﻿
-var canvas_array = [];
+﻿var canvas_array = [];
 
 var img_Corner_Shape;
 var img_array;
