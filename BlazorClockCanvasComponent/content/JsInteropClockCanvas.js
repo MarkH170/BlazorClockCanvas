@@ -20,7 +20,7 @@ function draw_Gauge(ctx, color, arc_params) {
     ctx.beginPath();
     ctx.moveTo(0, 0); //important to have expected shape!
     ctx.arc(arc_params.x, arc_params.y, arc_params.r, arc_params.sAngle, arc_params.eAngle);
-    ctx.fillStyle = gradient;;
+    ctx.fillStyle = gradient;
     ctx.closePath();
     ctx.fill();
 }
@@ -84,7 +84,7 @@ window.JsInteropClockCanvas = {
             ctxTop: document.getElementById(obj["topCanvasID"]).getContext("2d"),
             ctxBG: document.getElementById(obj["bgCanvasID"]).getContext("2d"),
             ctxReal: a.getContext("2d"),
-            ctxOffScreen: offscreenCanvas.getContext('2d'),
+            ctxOffScreen: offscreenCanvas.getContext('2d')
         };
 
         canvas_array.push(b);
@@ -99,7 +99,7 @@ window.JsInteropClockCanvas = {
         var result = true;
 
 
-        var index = canvas_array.findIndex(x => x.id === canvasID)
+        var index = canvas_array.findIndex(x => x.id === canvasID);
 
         if (index > -1) {
             canvas_array.splice(index, 1);

@@ -6,12 +6,11 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using BlazorClockCanvasComponent.Classes;
-using Microsoft.AspNetCore.Blazor.Components;
-
+using Microsoft.AspNetCore.Components;
 
 namespace BlazorClockCanvasComponent
 {
-    public class Component1_Logic : BlazorComponent
+    public class Component1_Logic : ComponentBase
     {
 
         public event EventHandler onDelete;
